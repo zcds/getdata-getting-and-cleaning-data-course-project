@@ -6,7 +6,7 @@ The important artifacts for course project completions are:
 
 - [README.md](./README.md)
 
-- [summarizedTidyDataSet.csv](./TidyData/summarizedTidyDataSet.csv) : tidy data set with the average of each variable for each activity and each subject
+- [summarizedTidyDataSet.txt](./TidyData/summarizedTidyDataSet.txt) : tidy data set with the average of each variable for each activity and each subject
 
 - [CodeBook.md](./CodeBook.md) : describes the variables, the data, and any transformations or work that you performed to clean up the data.
 

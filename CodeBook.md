@@ -24,10 +24,10 @@
   1. Eventually, the two tidy data sets are saved to the file system under the `./TidyData` directory.
 
 ## Output Data Files
-1. [labeledDataSet.csv](./TidyData/labeledDataSet.csv)
+1. [labeledDataSet.txt](./TidyData/labeledDataSet.txt)
 This file holds the tidy data for only the measurements on the mean and standard deviation for each measurement along with the subject and descriptive activity label. This is the output from step 6 above
 
-1. [summarizedTidyDataSet.csv](./TidyData/summarizedTidyDataSet.csv)
+1. [summarizedTidyDataSet.txt](./TidyData/summarizedTidyDataSet.txt)
 This file holds the tidy data for the average of variables related to Mean and Standard Deviation for each activity and each subject.
 
 ## Data Columns
