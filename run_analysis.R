@@ -123,8 +123,8 @@ createSummarizedTidyDataSet <- function(tidyData) {
 ## Writes the two tidy data sets to files
 writeDataSetsToFile <- function(labeledDataSet, summarizedTidyDataSet) {
   dir.create('./TidyData');
-  write.csv(labeledDataSet, file= './TidyData/labeledDataSet.csv', row.names = FALSE)
-  write.csv(summarizedTidyDataSet, file= './TidyData/summarizedTidyDataSet.csv', row.names = FALSE)
+  write.table(labeledDataSet, file= './TidyData/labeledDataSet.txt', row.names = FALSE)
+  write.table(summarizedTidyDataSet, file= './TidyData/summarizedTidyDataSet.txt', row.names = FALSE)
 }
 
 
